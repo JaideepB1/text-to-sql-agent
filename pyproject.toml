@@ -1,0 +1,14 @@
+[project]
+name = "text-to-sql-agent"
+version = "1.0.0"
+description = "A LangChain-based Text-to-SQL agent using OpenAI and the Chinook SQLite database."
+readme = "README.md"
+requires-python = ">=3.11"
+
+dependencies = [
+    "langchain",
+    "langchain-community",
+    "langchain-openai",
+    "python-dotenv",
+    "requests",
+]
